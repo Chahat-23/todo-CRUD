@@ -112,11 +112,11 @@ function Item({ item, todos, setTodos }) {
           <div className="todo_items_right">
             <button onClick={handleEdit} className="edit-btn">
               <span className="visually-hidden">Edit</span>
-              <img src="/src/assets/edit.png" alt="edit" />
+              <img src="/public/images/edit.png" alt="edit" />
             </button>
             <button onClick={handleDelete} className="delete-btn">
               <span className="visually-hidden">Delete</span>
-              <img src="/src/assets/delete.png" alt="delete" />
+              <img src="/public/images/delete.png" alt="delete" />
             </button>
           </div>
         </>

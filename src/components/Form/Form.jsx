@@ -30,7 +30,7 @@ export default function Form({ todos, setTodos }) {
       </label>
       <button className='add-todo'>
         <span className="visually-hidden">Add</span>
-        <img src="/src/assets/add.png" alt="add" />
+        <img src="/public/images/add.png" alt="add" />
       </button>
     </form>
   );

@@ -1,6 +1,6 @@
 # React + Vite
 
-Live link - https://vercel.com/chahat-23s-projects/todo-crud
+Live link - https://todo-crud-chahat-23s-projects.vercel.app/
 
 SS - 
 

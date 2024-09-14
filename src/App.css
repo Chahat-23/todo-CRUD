@@ -42,6 +42,9 @@ button {
   .header {
     justify-content: center;
   }
+  .todohero_section {
+    font-size: 14px;
+  }
 }
 .header {
   display: flex;

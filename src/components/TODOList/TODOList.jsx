@@ -8,7 +8,7 @@ export default function TODOList({ todos, setTodos }) {
           <Item key={index} item={item} setTodos={setTodos} todos={todos} />
         ))
       ) : (
-        <p>Seems pretty spare...What u upto?!</p>
+        <p>Seems pretty spare... What u upto?!</p>
       )}
     </ol>
   );

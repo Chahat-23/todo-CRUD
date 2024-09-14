@@ -1,4 +1,6 @@
 import React from "react";
+import edit from "../../assets/edit.png";
+import deleteIcon from "../../assets/deleteIcon.png";
 
 export default function TODOList({ todos, setTodos }) {
   return (
@@ -112,11 +114,11 @@ function Item({ item, todos, setTodos }) {
           <div className="todo_items_right">
             <button onClick={handleEdit} className="edit-btn">
               <span className="visually-hidden">Edit</span>
-              <img src="/src/assets/edit.png" />
+              <img src={edit} />
             </button>
             <button onClick={handleDelete} className="delete-btn">
               <span className="visually-hidden">Delete</span>
-              <img src="/src/assets/delete.png" />
+              <img src={deleteIcon} />
             </button>
           </div>
         </>

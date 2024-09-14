@@ -1,4 +1,5 @@
 import React from 'react'
+import add from "../../assets/add.png"
 
 export default function Form({ todos, setTodos }) {
   const handleSubmit = (e) => {
@@ -30,7 +31,7 @@ export default function Form({ todos, setTodos }) {
       </label>
       <button className='add-todo'>
         <span className="visually-hidden">Add</span>
-        <img src="/src/assets/add.png" />
+        <img src={add} alt='add' />
       </button>
     </form>
   );
